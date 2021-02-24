@@ -27,10 +27,10 @@ import org.jeecgframework.poi.excel.annotation.Excel;
 @Accessors(chain = true)
 @ApiModel(value="sys_third_account对象", description="第三方登录账号表")
 public class SysThirdAccount {
- 
+
 	/**编号*/
 	@TableId(type = IdType.ASSIGN_ID)
-  @ApiModelProperty(value = "编号")
+    @ApiModelProperty(value = "编号")
 	private java.lang.String id;
 	/**第三方登录id*/
 	@Excel(name = "第三方登录id", width = 15)
